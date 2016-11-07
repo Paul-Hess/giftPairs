@@ -5,6 +5,6 @@ import 'styles/main.scss';
 import React from 'react';
 import { render } from 'react-dom';
 
-import Index from 'components/Index/Index';
+import GiftPairs from 'components/GiftPairs/container';
 
-render(<Index items={[1,2,3]} />, document.getElementById('js-main'));
+render(<GiftPairs />, document.getElementById('js-main'));
