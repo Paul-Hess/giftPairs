@@ -1,4 +1,5 @@
 import React from 'react';
+import Family from '../../../server/Fam/Family.js';
 
 export default class GiftPairs extends React.Component {
 	constructor() {
